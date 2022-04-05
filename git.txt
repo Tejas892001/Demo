@@ -1,0 +1,10 @@
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+cat <path generated above where generated key is stored>
+//ssh key get generated add this to github
+git remote add origin <ssh url.git>
+git push orgin master
